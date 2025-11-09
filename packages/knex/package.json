@@ -50,7 +50,7 @@
     "access": "public"
   },
   "dependencies": {
-    "kysely": "npm:@harryplusplus/kysely@latest",
+    "kysely": "https://pkg.pr.new/kysely-org/kysely@1583",
     "sqlstring": "2.3.3"
   },
   "devDependencies": {

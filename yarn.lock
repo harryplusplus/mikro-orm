@@ -1378,7 +1378,7 @@ __metadata:
   resolution: "@mikro-orm/knex@workspace:packages/knex"
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     sqlstring: "npm:2.3.3"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
@@ -1391,7 +1391,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     libsql: "npm:0.5.22"
     sqlstring-sqlite: "npm:0.1.1"
   peerDependencies:
@@ -1406,7 +1406,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/mysql": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
     kysely: "*"
@@ -1464,7 +1464,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     tarn: "npm:3.0.2"
     tedious: "npm:19.0.0"
     tsqlstring: "npm:1.0.1"
@@ -1480,7 +1480,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     mysql2: "npm:3.15.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
@@ -1495,7 +1495,7 @@ __metadata:
     "@electric-sql/pglite": "npm:0.3.13"
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     postgres-date: "npm:2.1.0"
     postgres-interval: "npm:4.0.2"
   peerDependencies:
@@ -1510,7 +1510,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     pg: "npm:8.16.3"
     pg-cursor: "npm:2.15.3"
     postgres-array: "npm:3.0.4"
@@ -1606,7 +1606,7 @@ __metadata:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
     better-sqlite3: "npm:11.8.1"
-    kysely: "npm:@harryplusplus/kysely@latest"
+    kysely: "https://pkg.pr.new/kysely-org/kysely@1583"
     sqlstring-sqlite: "npm:0.1.1"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
@@ -7256,10 +7256,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kysely@npm:@harryplusplus/kysely@latest":
+"kysely@https://pkg.pr.new/kysely-org/kysely@1583":
   version: 0.28.8
-  resolution: "@harryplusplus/kysely@npm:0.28.8"
-  checksum: 10/e6754089c205d544a276fd9575977ea0c2fc8069987c12111e4688ff5bbbc00db4b113604809113af78baecf0a4d1be6560ad83e879583d896dcd746626c0dc1
+  resolution: "kysely@https://pkg.pr.new/kysely-org/kysely@1583"
+  checksum: 10/db9dfbe914fc9581a3bf7afa45cbaa9c79755cfb53ae061f3fcbffdd9b430c4e5ac5826f2b7ec5a3da996e76141401b0b5c39757498831bd7e094d6104165253
   languageName: node
   linkType: hard
 
