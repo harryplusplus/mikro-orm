@@ -61,8 +61,8 @@ services:
       test: /usr/bin/pg_isready -h 'localhost'
 
   mssql:
-    image: mcr.microsoft.com/mssql/server:2025-CTP2.0-ubuntu-22.04
-    restart: always
+    image: mcr.microsoft.com/mssql/server:latest
+    restart: no
     ports:
       - '1433:1433'
     cap_add:

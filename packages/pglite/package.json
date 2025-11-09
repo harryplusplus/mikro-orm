@@ -1,5 +1,5 @@
 {
-  "name": "@mikro-orm/mariadb",
+  "name": "@mikro-orm/pglite",
   "type": "module",
   "version": "6.5.8",
   "description": "TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, MySQL, PostgreSQL and SQLite databases as well as usage with vanilla JavaScript.",
@@ -50,7 +50,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@mikro-orm/mysql": "6.5.8"
+    "@electric-sql/pglite": "0.3.13",
+    "@mikro-orm/knex": "6.5.8",
+    "postgres-date": "2.1.0",
+    "postgres-interval": "4.0.2"
   },
   "devDependencies": {
     "@mikro-orm/core": "^6.5.8",

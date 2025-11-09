@@ -462,6 +462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@electric-sql/pglite@npm:0.3.13":
+  version: 0.3.13
+  resolution: "@electric-sql/pglite@npm:0.3.13"
+  checksum: 10/6ba1aef0fecb8f975b1adf2f861682572e29401e268dec31c3118d4dcd68585b7a8d30d4f8ad485df90c01896507852a40454022c719b6c98fea84c9023b7f15
+  languageName: node
+  linkType: hard
+
 "@emnapi/core@npm:^1.1.0, @emnapi/core@npm:^1.4.0":
   version: 1.4.3
   resolution: "@emnapi/core@npm:1.4.3"
@@ -1371,7 +1378,7 @@ __metadata:
   resolution: "@mikro-orm/knex@workspace:packages/knex"
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     sqlstring: "npm:2.3.3"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
@@ -1384,7 +1391,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     libsql: "npm:0.5.22"
     sqlstring-sqlite: "npm:0.1.1"
   peerDependencies:
@@ -1399,7 +1406,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/mysql": "npm:6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
     kysely: "*"
@@ -1457,7 +1464,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     tarn: "npm:3.0.2"
     tedious: "npm:19.0.0"
     tsqlstring: "npm:1.0.1"
@@ -1473,8 +1480,24 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     mysql2: "npm:3.15.2"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    kysely: "*"
+  languageName: unknown
+  linkType: soft
+
+"@mikro-orm/pglite@workspace:packages/pglite":
+  version: 0.0.0-use.local
+  resolution: "@mikro-orm/pglite@workspace:packages/pglite"
+  dependencies:
+    "@electric-sql/pglite": "npm:0.3.13"
+    "@mikro-orm/core": "npm:^6.5.8"
+    "@mikro-orm/knex": "npm:6.5.8"
+    kysely: "npm:@harryplusplus/kysely@latest"
+    postgres-date: "npm:2.1.0"
+    postgres-interval: "npm:4.0.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
     kysely: "*"
@@ -1487,7 +1510,7 @@ __metadata:
   dependencies:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     pg: "npm:8.16.3"
     pg-cursor: "npm:2.15.3"
     postgres-array: "npm:3.0.4"
@@ -1583,7 +1606,7 @@ __metadata:
     "@mikro-orm/core": "npm:^6.5.8"
     "@mikro-orm/knex": "npm:6.5.8"
     better-sqlite3: "npm:11.8.1"
-    kysely: "npm:0.28.7"
+    kysely: "npm:@harryplusplus/kysely@latest"
     sqlstring-sqlite: "npm:0.1.1"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
@@ -7233,10 +7256,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kysely@npm:0.28.7":
-  version: 0.28.7
-  resolution: "kysely@npm:0.28.7"
-  checksum: 10/1ef0b6c6d3b18841c3d8b01c3f316fda2339ae30e5d6825ee178faf4741967e47edaf3abc425dc2db3fb34e5db0eacb0125935b9e6632135d5f1d373fb483249
+"kysely@npm:@harryplusplus/kysely@latest":
+  version: 0.28.8
+  resolution: "@harryplusplus/kysely@npm:0.28.8"
+  checksum: 10/e6754089c205d544a276fd9575977ea0c2fc8069987c12111e4688ff5bbbc00db4b113604809113af78baecf0a4d1be6560ad83e879583d896dcd746626c0dc1
   languageName: node
   linkType: hard
 

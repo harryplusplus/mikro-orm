@@ -2,7 +2,7 @@ import { BasePostgreSqlPlatform, Utils } from '@mikro-orm/knex';
 import PostgresInterval, { type IPostgresInterval } from 'postgres-interval';
 import parseDate from 'postgres-date';
 
-export class PostgreSqlPlatform extends BasePostgreSqlPlatform {
+export class PGlitePlatform extends BasePostgreSqlPlatform {
 
   override convertIntervalToJSValue(value: string): unknown {
     return PostgresInterval(value);
@@ -39,10 +39,6 @@ export class PostgreSqlPlatform extends BasePostgreSqlPlatform {
     }
 
     return parsed as Date;
-  }
-
-  override getDefaultClientUrl(): string {
-    return 'postgresql://postgres@127.0.0.1:5432';
   }
 
 }
